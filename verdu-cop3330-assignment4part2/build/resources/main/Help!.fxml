@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="464.0" prefWidth="1336.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fill="#3b0feb" layoutX="229.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Program Instructions" textAlignment="CENTER" underline="true" wrappingWidth="878.13671875">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text layoutX="23.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. To add an item to the list: Type the name of the item (Must be a unique name), Type the Description of the item (Must be between 1 and 256), Type the Due Date of the item (Must be in format YYYY-MM-DD) and then click on the button." wrappingWidth="1290.13671875" />
+      <Text layoutX="23.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. To remove an item from the list: Type the name of the item, and then click the button (Remove Item). " wrappingWidth="1290.13671875" />
+      <Text layoutX="23.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. To edit the Description of an Item: Type the name of the item to edit, Type the new Description (Must be between 1 and 256) and click the edit Description button." wrappingWidth="1290.13671875" />
+      <Text layoutX="23.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4. To edit the Due Date of an Item: Type the name of the item to edit, Type the new Due Date (Must be in format YYYY-MM-DD) and click the edit Due Date button." wrappingWidth="1290.13671875" />
+      <Text layoutX="23.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5. To mark an item as Complete: Type the name of the item to mark as Complete, Click on the Mark Complete button." wrappingWidth="1290.13671875" />
+      <Text layoutX="23.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6. To mark an item as Incomplete: Type the name of the item to mark as Incomplete, Click on the Mark Incomplete button." wrappingWidth="1290.13671875" />
+      <Text layoutX="23.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7. To clear all items on the list: Click the Clear List button." wrappingWidth="1290.13671875" />
+      <Text layoutX="23.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8. To Import a list: Type in the complete path of the file, Click the Import List button. " wrappingWidth="453.13671875" />
+      <Text layoutX="104.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The File must be formatted in a specific way = Item1Name,Item1Completion,Item1Description,Item1DueDate" wrappingWidth="582.61328125" />
+      <Text layoutX="350.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Item2Name,Item2Completion,Item2Description,Item2DueDate" wrappingWidth="336.61328125" />
+      <Text layoutX="350.0" layoutY="294.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Item3Name,Item3Completion,Item3Description,Item3DueDate" wrappingWidth="336.61328125" />
+      <Text layoutX="350.0" layoutY="311.0" strokeType="OUTSIDE" strokeWidth="0.0" text="...." wrappingWidth="336.61328125" />
+      <Text layoutX="23.0" layoutY="325.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9. To Export a list: Click on the Export List button. The export file will be in the same format as the import file and will be put in the SRC file called ExportFile.txt" wrappingWidth="911.13671875" />
+      <Text layoutX="20.0" layoutY="348.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10. To Show all the items in the list, regardless of completion state, click the All Items button next to Item List Filters." wrappingWidth="911.13671875" />
+      <Text layoutX="20.0" layoutY="394.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12. To Show all the Complete items in the list, click the Complete Items button next to Item List Filters." wrappingWidth="911.13671875" />
+      <Text layoutX="20.0" layoutY="371.0" strokeType="OUTSIDE" strokeWidth="0.0" text="11. To Show all the Incomplete items in the list, click the Incomplete Items button next to Item List Filters." wrappingWidth="911.13671875" />
+      <Text layoutX="20.0" layoutY="419.0" strokeType="OUTSIDE" strokeWidth="0.0" text="13. To Show all the information of any item on the list, Type the name of item in the information area and Click on the See Information Button. This will display all the information of that item in the text area below. " wrappingWidth="1142.13671875" />
+   </children>
+</Pane>
