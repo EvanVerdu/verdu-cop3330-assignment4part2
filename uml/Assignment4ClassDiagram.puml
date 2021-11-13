@@ -1,0 +1,50 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Assignment4
+{
+public static void start (Intializes the application GUI)
+class Assignment4.Item
+}
+
+class Controller
+class CreateMainList
+
+Assignment4->CreateMainList
+
+class RemoveItem
+class AddItem
+
+class ExportSingleList
+class ImportSingleList
+
+class EditItemDescription
+class EditItemDueDate
+
+class CompleteItem
+class IncompleteItem
+class DisplayAll
+class DisplayIncomplete
+class DisplayComplete
+
+class CheckDateValidity
+
+Controller->RemoveItem
+Controller->AddItem
+Controller->CreateMainlist
+Controller->ExportSingleList
+Controller->ImportSingleList
+Controller->EditItemDescription
+Controller->EditItemDueDate
+Controller->CompleteItem
+Controller->IncompleteItem
+Controller->DisplayAll
+Controller->DisplayIncomplete
+Controller->DisplayComplete
+
+AddItem->CheckDateValidity
+EditItemDueDate->CheckDateValidity
+
+
+
+@enduml
